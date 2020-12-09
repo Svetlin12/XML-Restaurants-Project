@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <restaurantCatalog>
-    <restaurants>
+    <restaurant>
+        <name>Асеневци</name>
+        <id>1</id>
+        <picture link=""/>
+        <city>Велико Търново</city>
+        <region>Северен централен регион</region>
+        <address>ул. „Александър Стамболийски“ 7</address>
+        <phoneNumber>+359 88 918 0111</phoneNumber>
+        <website href="http://www.restorantasenevci.com/">http://www.restorantasenevci.com/</website>
+        <numSeats>
+            <indoor>110</indoor>
+            <bar>0</bar>
+            <outdoor>40</outdoor>
+        </numSeats>
+        <priceCategory>$$-$$$</priceCategory>
+        <typeOfRestaurant>ресторант, предлагащ спокойствие, домашен уют и историческа атмосфера</typeOfRestaurant>
+        <typesOfFood>
+            <type>Източноевропейска</type>
+            <type>Централноевропейска</type>
+            <type>Средиземноморска</type>
+            <type>Вегетарианска</type>
+        </typesOfFood>
+        <services>
+            <service>градина</service>
+            <service>детски кът</service>
+            <service>доставка</service>
+            <service>кетъринг</service>
+            <service>партита и събития</service>
+            <service>wi-fi</service>
+            <service>паркинг</service>
+            <service>жива музика</service>
+        </services>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+            <pay>кредитна карта</pay>
+        </payments>
+        <music>поп, италианска, джаз, ретро</music>
+    </restaurant>
+    <restaurant>
         <name>LIFE...restaurant, pizzeria &amp; wine bar</name>
+        <id>2</id>
         <picture link=""/>
         <city>Плевен</city>
         <region>Северозападен район</region>
@@ -9,37 +49,38 @@
         <phoneNumber>+359 64 843 844</phoneNumber>
         <website href="https://life-restaurant.bg/">https://life-restaurant.bg/</website>
         <numSeats>
-	        <indoor>80</indoor>
-	        <bar>10</bar>
-		<outdoor>40</outdoor>	
-	</numSeats>
+            <indoor>80</indoor>
+            <bar>10</bar>
+            <outdoor>40</outdoor>
+        </numSeats>
         <priceCategory>$$$$</priceCategory>
         <typeOfRestaurant>суши бар, ресторант, коктейл бар</typeOfRestaurant>
         <typesOfFood>
-		<type>Азиатска</type>
-		<type>Българска кухня</type>
-		<type>Бързо хранене</type>
-		<type>Вегетарианска</type>
-		<type>Италианска кухня</type>
+            <type>Азиатска</type>
+            <type>Българска кухня</type>
+            <type>Бързо хранене</type>
+            <type>Вегетарианска</type>
+            <type>Италианска кухня</type>
         </typesOfFood>
-	<payments>
-		<pay>дебитна карта</pay>
-		<pay>с брой</pay>
-	</payments>
         <services>
-		<service>wi-fi</service>
-		<service>тераса</service>
-		<service>на открито</service>
-		<service>жива музика</service>
-		<service>обедно меню</service>
-		<service>паркинг</service>
-		<service>доставка</service>
-		<service>парти и събития</service>
+            <service>wi-fi</service>
+            <service>тераса</service>
+            <service>на открито</service>
+            <service>жива музика</service>
+            <service>обедно меню</service>
+            <service>паркинг</service>
+            <service>доставка</service>
+            <service>парти и събития</service>
         </services>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+        </payments>
         <music>Chillout, разнообразна</music>
-    </restaurants>
-    <restaurants>
+    </restaurant>
+    <restaurant>
         <name>Стария чинар</name>
+        <id>3</id>
         <picture link=""/>
         <city>Варна</city>
         <region>Североизточен район</region>
@@ -47,142 +88,40 @@
         <phoneNumber>+359 87 954 9494</phoneNumber>
         <website href="http://www.stariachinar.com/port-varna/">http://www.stariachinar.com/port-varna/</website>
         <numSeats>
-	        <indoor>170</indoor>
-	        <bar>30</bar>
-	        <outdoor>200</outdoor>	
+            <indoor>170</indoor>
+            <bar>30</bar>
+            <outdoor>200</outdoor>
         </numSeats>
         <priceCategory>$$</priceCategory>
         <typeOfRestaurant>вино бар, ресторант, рибен ресторант</typeOfRestaurant>
         <typesOfFood>
-		<type>Българска традиционна кухня</type>
-		<type>Европейска</type>
-		<type>Балканска скара</type>
-		<type>Черноморска риба</type>
-		<type>Бързо хранене</type>
+            <type>Българска традиционна кухня</type>
+            <type>Европейска</type>
+            <type>Балканска скара</type>
+            <type>Черноморска риба</type>
+            <type>Бързо хранене</type>
         </typesOfFood>
         <services>
-		<service>wi-fi</service>
-		<service>градина</service>
-		<service>кетъринг за събития</service>
-		<service>на открито</service>
-		<service>жива музика</service>
-		<service>обедно меню</service>
-		<service>паркинг</service>
-		<service>доставка</service>
-		<service>парти и събития</service>
+            <service>wi-fi</service>
+            <service>градина</service>
+            <service>кетъринг за събития</service>
+            <service>на открито</service>
+            <service>жива музика</service>
+            <service>обедно меню</service>
+            <service>паркинг</service>
+            <service>доставка</service>
+            <service>парти и събития</service>
         </services>
-	    <payments>
-	        <pay>дебитна карта</pay>
-	        <pay>с брой</pay>
-	        <pay>кредитна карта</pay>
-	    </payments>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+            <pay>кредитна карта</pay>
+        </payments>
         <music>евъргрийн, българска поп, ретро</music>
-    </restaurants>
-    <restaurants>
-        <name>Царя 65</name>
-        <picture link=""/>
-        <city>Стара Загора</city>
-        <region>Югоизточен район</region>
-        <address>бул. Цар Симеон Велики 65</address>
-        <phoneNumber>+359 42 650 000</phoneNumber>
-        <website href="https://www.caria65.com/">https://www.caria65.com/</website>
-        <numSeats>
-	        <indoor>200</indoor>
-	        <bar>0</bar>
-	        <outdoor>240</outdoor>	
-        </numSeats>
-        <priceCategory>$$-$$$</priceCategory>
-        <typeOfRestaurant>ресторант, пицария</typeOfRestaurant>
-        <typesOfFood>
-		<type>Италианска</type>
-		<type>Вегетарианска</type>
-	        <type>Средиземноморска</type>
-		<type>Европейска</type>
-        </typesOfFood>
-        <services>
-		<service>wi-fi</service>
-		<service>градина</service>
-		<service>на открито</service>
-		<service>обедно меню</service>
-		<service>паркинг</service>
-		<service>парти и събития</service>
-        </services>
-	<payments>
-        <pay>дебитна карта</pay>
-		<pay>с брой</pay>
-	</payments>
-        <music>джаз, модерна, българска</music>
-    </restaurants>
-    <restaurants>
-        <name>Щастливеца</name>
-        <picture link=""/>
-        <city>Стара Загора</city>
-        <region>Югоизточен район</region>
-        <address>ул. Хан Аспарух 30</address>
-        <phoneNumber>+359 42 919 494</phoneNumber>
-        <website href="https://www.shtastliveca.com/">https://www.shtastliveca.com/</website>
-        <numSeats>
-	        <indoor>130</indoor>
-		<bar>0</bar>
-	        <outdoor>70</outdoor>	
-	    </numSeats>
-        <priceCategory>$$-$$$</priceCategory>
-        <typeOfRestaurant>ресторант</typeOfRestaurant>
-        <typesOfFood>
-	        <type>Източно европейска</type>
-		<type>Европейска</type>
-        </typesOfFood>
-        <services>
-		<service>wi-fi</service>
-		<service>тераса</service>
-		<service>парти и събития</service>
-        </services>
-	<payments>
-		<pay>дебитна карта</pay>
-	        <pay>с брой</pay>
-		<pay>кредитна карта</pay>
-	</payments>
-        <music>западна, гръцка, разнообразна</music>
-    </restaurants>
-    <restaurants>
-        <name>The View</name>
-        <picture link=""/>
-        <city>София</city>
-        <region>Югозападен регион</region>
-        <address>бул. Витоша 89Б, Милениум център, етаж 24</address>
-        <phoneNumber>+359 88 972 4124</phoneNumber>
-        <website href="http://theview.bg/en/">http://theview.bg/en/</website>
-        <numSeats>
-	        <indoor>360</indoor>
-	        <bar>12</bar>
-	        <outdoor>60</outdoor>	
-	</numSeats>
-        <priceCategory>$$-$$$</priceCategory>
-        <typeOfRestaurant>коктейл бар, гурме ресторант</typeOfRestaurant>
-        <typesOfFood>
-		<type>Средиземноморска</type>
-		<type>Централно европейска</type>
-	        <type>Европейска</type>
-		<type>Вегетарианска</type>
-        </typesOfFood>
-        <services>
-		<service>wi-fi</service>
-	        <service>панорамна гледка</service>
-	        <service>кетъринг за събития</service>
-		<service>парти и събития</service>
-		<service>на открито</service>
-		<service>паркинг</service>
-		<service>коктейлен бар</service>
-        </services>
-	<payments>
-		<pay>дебитна карта</pay>
-	        <pay>с брой</pay>
-	        <pay>кредитна карта</pay>
-	</payments>
-        <music>trance, vocal house, chill out &amp; relax</music>
-    </restaurants>
-    <restaurants>
+    </restaurant>
+    <restaurant>
         <name>Spaghetti Kitchen</name>
+        <id>4</id>
         <picture link=""/>
         <city>София</city>
         <region>Югозападен регион</region>
@@ -190,36 +129,177 @@
         <phoneNumber>+359 89 056 6666</phoneNumber>
         <website href="http://www.spaghetti-kitchen.com/">http://www.spaghetti-kitchen.com/</website>
         <numSeats>
-	        <indoor>160</indoor>
-	        <bar>0</bar>
-	        <outdoor>70</outdoor>	
-	</numSeats>
+            <indoor>160</indoor>
+            <bar>0</bar>
+            <outdoor>70</outdoor>
+        </numSeats>
         <priceCategory>$$</priceCategory>
         <typeOfRestaurant>ресторант, романтичен ресторант, френски ресторант</typeOfRestaurant>
         <typesOfFood>
-		<type>Италианска</type>
-		<type>Традиционна френска кухня</type>
-	        <type>Вегетарианска</type>
-		<type>Средиземноморска</type>
-		<type>Европейска</type>
+            <type>Италианска</type>
+            <type>Традиционна френска кухня</type>
+            <type>Вегетарианска</type>
+            <type>Средиземноморска</type>
+            <type>Европейска</type>
         </typesOfFood>
         <services>
-		<service>wi-fi</service>
-	        <service>зона за непушачи</service>
-		<service>зимна градина</service>
-		<service>на открито</service>
-		<service>паркинг</service>
-	        <service>маси с високи столове</service>
-		<service>доставка</service>
+            <service>wi-fi</service>
+            <service>зона за непушачи</service>
+            <service>зимна градина</service>
+            <service>на открито</service>
+            <service>паркинг</service>
+            <service>маси с високи столове</service>
+            <service>доставка</service>
         </services>
-	<payments>
-	        <pay>дебитна карта</pay>
-	        <pay>с брой</pay>
-	        <pay>кредитна карта</pay>
-	</payments>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+            <pay>кредитна карта</pay>
+        </payments>
         <music>chill out, soft vocals</music>
-    </restaurants>
-    
-    #TODO: Last Restaurant
-    
+    </restaurant>
+    <restaurant>
+        <name>The View</name>
+        <id>5</id>
+        <picture link=""/>
+        <city>София</city>
+        <region>Югозападен регион</region>
+        <address>бул. Витоша 89Б, Милениум център, етаж 24</address>
+        <phoneNumber>+359 88 972 4124</phoneNumber>
+        <website href="http://theview.bg/en/">http://theview.bg/en/</website>
+        <numSeats>
+            <indoor>360</indoor>
+            <bar>12</bar>
+            <outdoor>60</outdoor>
+        </numSeats>
+        <priceCategory>$$-$$$</priceCategory>
+        <typeOfRestaurant>коктейл бар, гурме ресторант</typeOfRestaurant>
+        <typesOfFood>
+            <type>Средиземноморска</type>
+            <type>Централно европейска</type>
+            <type>Европейска</type>
+            <type>Вегетарианска</type>
+        </typesOfFood>
+        <services>
+            <service>wi-fi</service>
+            <service>панорамна гледка</service>
+            <service>кетъринг за събития</service>
+            <service>парти и събития</service>
+            <service>на открито</service>
+            <service>паркинг</service>
+            <service>коктейлен бар</service>
+        </services>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+            <pay>кредитна карта</pay>
+        </payments>
+        <music>trance, vocal house, chill out &amp; relax</music>
+    </restaurant>
+    <restaurant>
+        <name>Torro Boulevard</name>
+        <id>6</id>
+        <picture link=""/>
+        <city>Пловдив</city>
+        <region>Южен централен регион</region>
+        <address>бул. „Васил Априлов“ 60</address>
+        <phoneNumber>+359 87 900 6100</phoneNumber>
+        <website href="https://www.torrogrande.com/">https://www.torrogrande.com/</website>
+        <numSeats>
+            <indoor>90</indoor>
+            <bar>35</bar>
+            <outdoor>20</outdoor>
+        </numSeats>
+        <priceCategory>$$-$$$</priceCategory>
+        <typeOfRestaurant>ресторант, приятна атмосфера, подходящ за срещи</typeOfRestaurant>
+        <typesOfFood>
+            <type>Суши</type>
+            <type>Пици</type>
+            <type>Кафе</type>
+            <type>Street Food</type>
+            <type>Средиземноморска</type>
+            <type>Скара</type>
+            <type>барбекю</type>
+        </typesOfFood>
+        <services>
+            <service>сепарета</service>
+            <service>зарядно за телефони</service>
+            <service>обедно меню</service>
+            <service>климатик</service>
+            <service>wi-fi</service>
+            <service>партита и банкети</service>
+        </services>
+        <payments>
+            <pay>в брой</pay>
+        </payments>
+        <music>поп</music>
+    </restaurant>
+    <restaurant>
+        <name>Царя 65</name>
+        <id>7</id>
+        <picture link=""/>
+        <city>Стара Загора</city>
+        <region>Югоизточен район</region>
+        <address>бул. Цар Симеон Велики 65</address>
+        <phoneNumber>+359 42 650 000</phoneNumber>
+        <website href="https://www.caria65.com/">https://www.caria65.com/</website>
+        <numSeats>
+            <indoor>200</indoor>
+            <bar>0</bar>
+            <outdoor>240</outdoor>
+        </numSeats>
+        <priceCategory>$$-$$$</priceCategory>
+        <typeOfRestaurant>ресторант, пицария</typeOfRestaurant>
+        <typesOfFood>
+            <type>Италианска</type>
+            <type>Вегетарианска</type>
+            <type>Средиземноморска</type>
+            <type>Европейска</type>
+        </typesOfFood>
+        <services>
+            <service>wi-fi</service>
+            <service>градина</service>
+            <service>на открито</service>
+            <service>обедно меню</service>
+            <service>паркинг</service>
+            <service>парти и събития</service>
+        </services>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+        </payments>
+        <music>джаз, модерна, българска</music>
+    </restaurant>
+    <restaurant>
+        <name>Щастливеца</name>
+        <id>8</id>
+        <picture link=""/>
+        <city>Стара Загора</city>
+        <region>Югоизточен район</region>
+        <address>ул. Хан Аспарух 30</address>
+        <phoneNumber>+359 42 919 494</phoneNumber>
+        <website href="https://www.shtastliveca.com/">https://www.shtastliveca.com/</website>
+        <numSeats>
+            <indoor>130</indoor>
+            <bar>0</bar>
+            <outdoor>70</outdoor>
+        </numSeats>
+        <priceCategory>$$-$$$</priceCategory>
+        <typeOfRestaurant>ресторант</typeOfRestaurant>
+        <typesOfFood>
+            <type>Източно европейска</type>
+            <type>Европейска</type>
+        </typesOfFood>
+        <services>
+            <service>wi-fi</service>
+            <service>тераса</service>
+            <service>парти и събития</service>
+        </services>
+        <payments>
+            <pay>в брой</pay>
+            <pay>дебитна карта</pay>
+            <pay>кредитна карта</pay>
+        </payments>
+        <music>западна, гръцка, разнообразна</music>
+    </restaurant>
 </restaurantCatalog>
