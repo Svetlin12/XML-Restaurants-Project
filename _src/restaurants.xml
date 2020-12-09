@@ -11,30 +11,30 @@
         <numSeats>
 	        <indoor>80</indoor>
 	        <bar>10</bar>
-	        <outdoor>40</outdoor>	
-	    </numSeats>
+		<outdoor>40</outdoor>	
+	</numSeats>
         <priceCategory>$$$$</priceCategory>
         <typeOfRestaurant>суши бар, ресторант, коктейл бар</typeOfRestaurant>
         <typesOfFood>
-            <type>Азиатска</type>
-            <type>Българска кухня</type>
-            <type>Бързо хранене</type>
-            <type>Вегетарианска</type>
-            <type>Италианска кухня</type>
+		<type>Азиатска</type>
+		<type>Българска кухня</type>
+		<type>Бързо хранене</type>
+		<type>Вегетарианска</type>
+		<type>Италианска кухня</type>
         </typesOfFood>
-	    <payments>
-            <pay>дебитна карта</pay>
-            <pay>с брой</pay>
-	    </payments>
+	<payments>
+		<pay>дебитна карта</pay>
+		<pay>с брой</pay>
+	</payments>
         <services>
-            <service>wi-fi</service>
-            <service>тераса</service>
-            <service>на открито</service>
-            <service>жива музика</service>
-            <service>обедно меню</service>
-            <service>паркинг</service>
-            <service>доставка</service>
-            <service>парти и събития</service>
+		<service>wi-fi</service>
+		<service>тераса</service>
+		<service>на открито</service>
+		<service>жива музика</service>
+		<service>обедно меню</service>
+		<service>паркинг</service>
+		<service>доставка</service>
+		<service>парти и събития</service>
         </services>
         <music>Chillout, разнообразна</music>
     </restaurants>
@@ -54,22 +54,22 @@
         <priceCategory>$$</priceCategory>
         <typeOfRestaurant>вино бар, ресторант, рибен ресторант</typeOfRestaurant>
         <typesOfFood>
-            <type>Българска традиционна кухня</type>
-            <type>Европейска</type>
-	    <type>Балканска скара</type>
-            <type>Черноморска риба</type>
-            <type>Бързо хранене</type>
+		<type>Българска традиционна кухня</type>
+		<type>Европейска</type>
+		<type>Балканска скара</type>
+		<type>Черноморска риба</type>
+		<type>Бързо хранене</type>
         </typesOfFood>
         <services>
-            <service>wi-fi</service>
-            <service>градина</service>
-	        <service>кетъринг за събития</service>
-            <service>на открито</service>
-            <service>жива музика</service>
-            <service>обедно меню</service>
-            <service>паркинг</service>
-            <service>доставка</service>
-            <service>парти и събития</service>
+		<service>wi-fi</service>
+		<service>градина</service>
+		<service>кетъринг за събития</service>
+		<service>на открито</service>
+		<service>жива музика</service>
+		<service>обедно меню</service>
+		<service>паркинг</service>
+		<service>доставка</service>
+		<service>парти и събития</service>
         </services>
 	    <payments>
 	        <pay>дебитна карта</pay>
@@ -94,22 +94,22 @@
         <priceCategory>$$-$$$</priceCategory>
         <typeOfRestaurant>ресторант, пицария</typeOfRestaurant>
         <typesOfFood>
-	    <type>Италианска</type>
-            <type>Вегетарианска</type>
+		<type>Италианска</type>
+		<type>Вегетарианска</type>
 	        <type>Средиземноморска</type>
-            <type>Европейска</type>
+		<type>Европейска</type>
         </typesOfFood>
         <services>
-            <service>wi-fi</service>
-            <service>градина</service>
-            <service>на открито</service>
-            <service>обедно меню</service>
-            <service>паркинг</service>
-            <service>парти и събития</service>
+		<service>wi-fi</service>
+		<service>градина</service>
+		<service>на открито</service>
+		<service>обедно меню</service>
+		<service>паркинг</service>
+		<service>парти и събития</service>
         </services>
 	<payments>
         <pay>дебитна карта</pay>
-	    <pay>с брой</pay>
+		<pay>с брой</pay>
 	</payments>
         <music>джаз, модерна, българска</music>
     </restaurants>
@@ -123,25 +123,25 @@
         <website href="https://www.shtastliveca.com/">https://www.shtastliveca.com/</website>
         <numSeats>
 	        <indoor>130</indoor>
-    	    <bar>0</bar>
+		<bar>0</bar>
 	        <outdoor>70</outdoor>	
 	    </numSeats>
         <priceCategory>$$-$$$</priceCategory>
         <typeOfRestaurant>ресторант</typeOfRestaurant>
         <typesOfFood>
 	        <type>Източно европейска</type>
-            <type>Европейска</type>
+		<type>Европейска</type>
         </typesOfFood>
         <services>
-            <service>wi-fi</service>
-            <service>тераса</service>
-            <service>парти и събития</service>
+		<service>wi-fi</service>
+		<service>тераса</service>
+		<service>парти и събития</service>
         </services>
-	    <payments>
-            <pay>дебитна карта</pay>
+	<payments>
+		<pay>дебитна карта</pay>
 	        <pay>с брой</pay>
-            <pay>кредитна карта</pay>
-	    </payments>
+		<pay>кредитна карта</pay>
+	</payments>
         <music>западна, гръцка, разнообразна</music>
     </restaurants>
     <restaurants>
@@ -156,29 +156,29 @@
 	        <indoor>360</indoor>
 	        <bar>12</bar>
 	        <outdoor>60</outdoor>	
-	    </numSeats>
+	</numSeats>
         <priceCategory>$$-$$$</priceCategory>
         <typeOfRestaurant>коктейл бар, гурме ресторант</typeOfRestaurant>
         <typesOfFood>
-            <type>Средиземноморска</type>
-            <type>Централно европейска</type>
+		<type>Средиземноморска</type>
+		<type>Централно европейска</type>
 	        <type>Европейска</type>
-            <type>Вегетарианска</type>
+		<type>Вегетарианска</type>
         </typesOfFood>
         <services>
-            <service>wi-fi</service>
+		<service>wi-fi</service>
 	        <service>панорамна гледка</service>
 	        <service>кетъринг за събития</service>
-            <service>парти и събития</service>
-            <service>на открито</service>
-            <service>паркинг</service>
-            <service>коктейлен бар</service>
+		<service>парти и събития</service>
+		<service>на открито</service>
+		<service>паркинг</service>
+		<service>коктейлен бар</service>
         </services>
-	    <payments>
-	        <pay>дебитна карта</pay>
+	<payments>
+		<pay>дебитна карта</pay>
 	        <pay>с брой</pay>
 	        <pay>кредитна карта</pay>
-	    </payments>
+	</payments>
         <music>trance, vocal house, chill out &amp; relax</music>
     </restaurants>
     <restaurants>
@@ -193,30 +193,30 @@
 	        <indoor>160</indoor>
 	        <bar>0</bar>
 	        <outdoor>70</outdoor>	
-	    </numSeats>
+	</numSeats>
         <priceCategory>$$</priceCategory>
         <typeOfRestaurant>ресторант, романтичен ресторант, френски ресторант</typeOfRestaurant>
         <typesOfFood>
-            <type>Италианска</type>
-            <type>Традиционна френска кухня</type>
+		<type>Италианска</type>
+		<type>Традиционна френска кухня</type>
 	        <type>Вегетарианска</type>
-            <type>Средиземноморска</type>
-            <type>Европейска</type>
+		<type>Средиземноморска</type>
+		<type>Европейска</type>
         </typesOfFood>
         <services>
-            <service>wi-fi</service>
+		<service>wi-fi</service>
 	        <service>зона за непушачи</service>
-            <service>зимна градина</service>
-            <service>на открито</service>
-            <service>паркинг</service>
+		<service>зимна градина</service>
+		<service>на открито</service>
+		<service>паркинг</service>
 	        <service>маси с високи столове</service>
-            <service>доставка</service>
+		<service>доставка</service>
         </services>
-	    <payments>
+	<payments>
 	        <pay>дебитна карта</pay>
 	        <pay>с брой</pay>
 	        <pay>кредитна карта</pay>
-	    </payments>
+	</payments>
         <music>chill out, soft vocals</music>
     </restaurants>
     
