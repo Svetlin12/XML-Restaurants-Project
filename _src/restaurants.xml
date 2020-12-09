@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<restaurantCatalog>
+    <restaurants>
+        <name>LIFE...restaurant, pizzeria &amp; wine bar</name>
+        <picture link=""/>
+        <city>Плевен</city>
+        <region>Северозападен район</region>
+        <address>ул. Трети Март 35</address>
+        <phoneNumber>+359 64 843 844</phoneNumber>
+        <website href="https://life-restaurant.bg/">https://life-restaurant.bg/</website>
+        <numSeats>158</numSeats>
+        <priceCategory>$$$$</priceCategory>
+        <typesOfFood>
+            <type>Азиатска</type>
+            <type>Българска кухня</type>
+            <type>Бързо хранене</type>
+            <type>Вегетарианска</type>
+            <type>Италианска кухня</type>
+        </typesOfFood>
+        <services>
+            <service>wi-fi</service>
+            <service>тераса</service>
+            <service>на открито</service>
+            <service>жива музика</service>
+            <service>обедно меню</service>
+            <service>паркинг</service>
+            <service>доставка</service>
+            <service>плащане с карта</service>
+            <service>парти и събития</service>
+        </services>
+        <music>Chillout, разнообразна</music>
+    </restaurants>
+</restaurantCatalog>
