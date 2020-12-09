@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-16"?>
+<!DOCTYPE restaurantCatalog SYSTEM "restaurants.dtd">
 <restaurantCatalog>
-    <restaurant>
+    <restaurant id="r1">
         <name>Асеневци</name>
-        <id>1</id>
         <picture link=""/>
         <city>Велико Търново</city>
         <region>Северен централен регион</region>
@@ -37,11 +37,15 @@
             <pay>дебитна карта</pay>
             <pay>кредитна карта</pay>
         </payments>
-        <music>поп, италианска, джаз, ретро</music>
+        <music>
+            <genre>поп</genre>
+            <genre>италианска</genre>
+            <genre>джаз</genre>
+            <genre>ретро</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r2">
         <name>LIFE...restaurant, pizzeria &amp; wine bar</name>
-        <id>2</id>
         <picture link=""/>
         <city>Плевен</city>
         <region>Северозападен район</region>
@@ -76,11 +80,12 @@
             <pay>в брой</pay>
             <pay>дебитна карта</pay>
         </payments>
-        <music>Chillout, разнообразна</music>
+        <music>
+            <genre>Chillout, разнообразна</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r3">
         <name>Стария чинар</name>
-        <id>3</id>
         <picture link=""/>
         <city>Варна</city>
         <region>Североизточен район</region>
@@ -117,11 +122,14 @@
             <pay>дебитна карта</pay>
             <pay>кредитна карта</pay>
         </payments>
-        <music>евъргрийн, българска поп, ретро</music>
+        <music>
+            <genre>евъргрийн</genre>
+            <genre>българска поп</genre>
+            <genre>ретро</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r4">
         <name>Spaghetti Kitchen</name>
-        <id>4</id>
         <picture link=""/>
         <city>София</city>
         <region>Югозападен регион</region>
@@ -156,11 +164,9 @@
             <pay>дебитна карта</pay>
             <pay>кредитна карта</pay>
         </payments>
-        <music>chill out, soft vocals</music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r5">
         <name>The View</name>
-        <id>5</id>
         <picture link=""/>
         <city>София</city>
         <region>Югозападен регион</region>
@@ -194,11 +200,14 @@
             <pay>дебитна карта</pay>
             <pay>кредитна карта</pay>
         </payments>
-        <music>trance, vocal house, chill out &amp; relax</music>
+        <music>
+            <genre>trance</genre>
+            <genre>vocal house</genre>
+            <genre>chill out &amp; relax</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r6">
         <name>Torro Boulevard</name>
-        <id>6</id>
         <picture link=""/>
         <city>Пловдив</city>
         <region>Южен централен регион</region>
@@ -232,11 +241,12 @@
         <payments>
             <pay>в брой</pay>
         </payments>
-        <music>поп</music>
+        <music>
+            <genre>поп</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r7">
         <name>Царя 65</name>
-        <id>7</id>
         <picture link=""/>
         <city>Стара Загора</city>
         <region>Югоизточен район</region>
@@ -268,11 +278,14 @@
             <pay>в брой</pay>
             <pay>дебитна карта</pay>
         </payments>
-        <music>джаз, модерна, българска</music>
+        <music>
+            <genre>джаз</genre>
+            <genre>модерна</genre>
+            <genre>българска</genre>
+        </music>
     </restaurant>
-    <restaurant>
+    <restaurant id="r8">
         <name>Щастливеца</name>
-        <id>8</id>
         <picture link=""/>
         <city>Стара Загора</city>
         <region>Югоизточен район</region>
@@ -300,6 +313,10 @@
             <pay>дебитна карта</pay>
             <pay>кредитна карта</pay>
         </payments>
-        <music>западна, гръцка, разнообразна</music>
+        <music>
+            <genre>западна</genre>
+            <genre>гръцка</genre>
+            <genre>разнообразна</genre>
+        </music>
     </restaurant>
 </restaurantCatalog>
