@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT restaurantCatalog (restaurant)+>
+<!ELEMENT restaurant (name, picture, city, region, address,
+        phoneNumber, website, numSeats, priceCategory,
+        typeOfRestaurant?, typesOfFood, services, payments, music?)>
+<!ATTLIST restaurant id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT picture EMPTY>
+<!ATTLIST picture link CDATA #REQUIRED>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ATTLIST website href CDATA #REQUIRED>
+<!ELEMENT numSeats (indoor, bar, outdoor)>
+<!ELEMENT indoor (#PCDATA)>
+<!ELEMENT bar (#PCDATA)>
+<!ELEMENT outdoor (#PCDATA)>
+<!ELEMENT priceCategory (#PCDATA)>
+<!ELEMENT typeOfRestaurant (#PCDATA)>
+<!ELEMENT typesOfFood (type)+>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT services (service)+>
+<!ELEMENT service (#PCDATA)>
+<!ELEMENT payments (pay)+>
+<!ELEMENT pay (#PCDATA)>
+<!ELEMENT music (genre)+>
+<!ELEMENT genre (#PCDATA)>
