@@ -1,1 +1,8 @@
 - http://www.stariachinar.com/port-varna/
+- https://www.tripadvisor.com/Restaurant_Review-g303649-d6223058-Reviews-LIFE_restaurant_pizzeria_wine_bar-Pleven_Pleven_Province.html
+- https://www.tripadvisor.com/Restaurant_Review-g303651-d6707549-Reviews-Tsaria_65-Stara_Zagora_Stara_Zagora_Province.html
+- https://www.tripadvisor.com/Restaurant_Review-g303651-d2632673-Reviews-Restaurant_Shtastliveca-Stara_Zagora_Stara_Zagora_Province.html
+- https://www.tripadvisor.com/Restaurant_Review-g294452-d12724934-Reviews-The_View_Restaurant-Sofia_Sofia_Region.html
+- https://www.tripadvisor.com/Restaurant_Review-g294452-d2069758-Reviews-Spaghetti_Kitchen-Sofia_Sofia_Region.html
+- https://www.tripadvisor.com/Restaurant_Review-g295391-d15700655-Reviews-Torro_Boulevard-Plovdiv_Plovdiv_Province.html
+- https://www.tripadvisor.com/Restaurant_Review-g303653-d7243679-Reviews-Restaurant_Asenevtsi-Veliko_Tarnovo_Veliko_Tarnovo_Province.html
