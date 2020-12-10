@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-16"?>
+<?xml-stylesheet type="text/xsl" href="restaurantsXSLT.xsl"?>
 <!DOCTYPE restaurantCatalog SYSTEM "restaurants.dtd">
 <restaurantCatalog>
     <restaurant id="r1">
         <name>Асеневци</name>
-        <picture link=""/>
+        <picture link="Асеневци, Велико Търново 01.jpg"/>
         <city>Велико Търново</city>
         <region>Северен централен регион</region>
         <address>ул. „Александър Стамболийски“ 7</address>
         <phoneNumber>+359 88 918 0111</phoneNumber>
         <website href="http://www.restorantasenevci.com/">http://www.restorantasenevci.com/</website>
-        <numSeats>
+        <numSeats all="150">
             <indoor>110</indoor>
             <bar>0</bar>
             <outdoor>40</outdoor>
@@ -46,13 +47,13 @@
     </restaurant>
     <restaurant id="r2">
         <name>LIFE...restaurant, pizzeria &amp; wine bar</name>
-        <picture link=""/>
+        <picture link="Life..., Плевен 01.jpg"/>
         <city>Плевен</city>
         <region>Северозападен район</region>
         <address>ул. Трети Март 35</address>
         <phoneNumber>+359 64 843 844</phoneNumber>
         <website href="https://life-restaurant.bg/">https://life-restaurant.bg/</website>
-        <numSeats>
+        <numSeats all="130">
             <indoor>80</indoor>
             <bar>10</bar>
             <outdoor>40</outdoor>
@@ -86,13 +87,13 @@
     </restaurant>
     <restaurant id="r3">
         <name>Стария чинар</name>
-        <picture link=""/>
+        <picture link="Старият чинар, Варна 01.jpg"/>
         <city>Варна</city>
         <region>Североизточен район</region>
         <address>Пристанищен комплекс, Варна</address>
         <phoneNumber>+359 87 954 9494</phoneNumber>
         <website href="http://www.stariachinar.com/port-varna/">http://www.stariachinar.com/port-varna/</website>
-        <numSeats>
+        <numSeats all="400">
             <indoor>170</indoor>
             <bar>30</bar>
             <outdoor>200</outdoor>
@@ -130,13 +131,13 @@
     </restaurant>
     <restaurant id="r4">
         <name>Spaghetti Kitchen</name>
-        <picture link=""/>
+        <picture link="Spaghetti Kitchen, София 01.jpg"/>
         <city>София</city>
         <region>Югозападен регион</region>
         <address>ул. 6-ти Септември N9</address>
         <phoneNumber>+359 89 056 6666</phoneNumber>
         <website href="http://www.spaghetti-kitchen.com/">http://www.spaghetti-kitchen.com/</website>
-        <numSeats>
+        <numSeats all="230">
             <indoor>160</indoor>
             <bar>0</bar>
             <outdoor>70</outdoor>
@@ -167,13 +168,13 @@
     </restaurant>
     <restaurant id="r5">
         <name>The View</name>
-        <picture link=""/>
+        <picture link="The View, Sofia 01.jpg"/>
         <city>София</city>
         <region>Югозападен регион</region>
         <address>бул. Витоша 89Б, Милениум център, етаж 24</address>
         <phoneNumber>+359 88 972 4124</phoneNumber>
         <website href="http://theview.bg/en/">http://theview.bg/en/</website>
-        <numSeats>
+        <numSeats all="432">
             <indoor>360</indoor>
             <bar>12</bar>
             <outdoor>60</outdoor>
@@ -208,13 +209,13 @@
     </restaurant>
     <restaurant id="r6">
         <name>Torro Boulevard</name>
-        <picture link=""/>
+        <picture link="Torro Boulevard, Пловдив 01.jpg"/>
         <city>Пловдив</city>
         <region>Южен централен регион</region>
         <address>бул. „Васил Априлов“ 60</address>
         <phoneNumber>+359 87 900 6100</phoneNumber>
         <website href="https://www.torrogrande.com/">https://www.torrogrande.com/</website>
-        <numSeats>
+        <numSeats all="145">
             <indoor>90</indoor>
             <bar>35</bar>
             <outdoor>20</outdoor>
@@ -228,7 +229,7 @@
             <type>Street Food</type>
             <type>Средиземноморска</type>
             <type>Скара</type>
-            <type>Барбекю</type>
+            <type>барбекю</type>
         </typesOfFood>
         <services>
             <service>сепарета</service>
@@ -247,13 +248,13 @@
     </restaurant>
     <restaurant id="r7">
         <name>Царя 65</name>
-        <picture link=""/>
+        <picture link="Царя 65, Стара Загора 02.jpg"/>
         <city>Стара Загора</city>
         <region>Югоизточен район</region>
         <address>бул. Цар Симеон Велики 65</address>
         <phoneNumber>+359 42 650 000</phoneNumber>
         <website href="https://www.caria65.com/">https://www.caria65.com/</website>
-        <numSeats>
+        <numSeats all="440">
             <indoor>200</indoor>
             <bar>0</bar>
             <outdoor>240</outdoor>
@@ -286,13 +287,13 @@
     </restaurant>
     <restaurant id="r8">
         <name>Щастливеца</name>
-        <picture link=""/>
+        <picture link="Щастливеца, Стара Загора 01.jpg"/>
         <city>Стара Загора</city>
         <region>Югоизточен район</region>
         <address>ул. Хан Аспарух 30</address>
         <phoneNumber>+359 42 919 494</phoneNumber>
         <website href="https://www.shtastliveca.com/">https://www.shtastliveca.com/</website>
-        <numSeats>
+        <numSeats all="200">
             <indoor>130</indoor>
             <bar>0</bar>
             <outdoor>70</outdoor>
