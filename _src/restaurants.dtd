@@ -14,6 +14,7 @@
 <!ELEMENT website (#PCDATA)>
 <!ATTLIST website href CDATA #REQUIRED>
 <!ELEMENT numSeats (indoor, bar, outdoor)>
+<!ATTLIST numSeats all CDATA #REQUIRED>
 <!ELEMENT indoor (#PCDATA)>
 <!ELEMENT bar (#PCDATA)>
 <!ELEMENT outdoor (#PCDATA)>
