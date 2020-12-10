@@ -1,0 +1,152 @@
+body {
+    background-color: lightcyan;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    color: black;
+    font-family: Arial, serif;
+}
+
+h1 {
+    font-family: Arial, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Arial, serif;
+    font-size: 30px;
+}
+
+h4 {
+    color: royalblue;
+}
+
+.navigationBar {
+    margin: auto;
+    position: relative;
+    width: 740px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+}
+
+.navigationBar a {
+    line-height: 25px;
+    height: 44%;
+    font-size: 15px;
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.navigationBar a:hover:not(.active) {
+    background-color: palegreen;
+    color: black;
+    animation: namesHover;
+    animation-duration: 1s;
+}
+
+.navigationBar a.active {
+    background-color: #bf4c76;
+    color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.navigationBar a.lastElem {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 74.5px;
+}
+
+@keyframes namesHover {
+    from {
+        background-color: slategrey;
+    }
+    to {
+        background-color: palegreen;
+    }
+}
+
+.rest {
+    width: 90%;
+    display: block;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px slategray;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.rest h2 {
+    text-align: center;
+}
+
+.image img {
+    margin: 5px;
+    width: 450px;
+    height: 400px;
+}
+
+#type {
+    width: 400px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px;
+}
+
+.nonImageInfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+
+.additionalInfo {
+    text-align: center;
+    position: relative;
+    left: 90px;
+}
+
+.menu {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background: #34495e;
+    min-width: 200px;
+    padding: 12px 16px;
+    z-index: 100;
+}
+
+.menu-content p {
+    color: white;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
