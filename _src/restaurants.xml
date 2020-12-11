@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <?xml-stylesheet type="text/xsl" href="restaurantsXSLT.xsl"?>
 <!DOCTYPE restaurantCatalog SYSTEM "restaurants.dtd">
-<restaurantCatalog>
+<restaurantCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurants.xsd">
     <restaurant id="r1">
         <name>Асеневци</name>
         <picture link="Асеневци, Велико Търново 01.jpg"/>
