@@ -320,4 +320,22 @@
             <genre>разнообразна</genre>
         </music>
     </restaurant>
+    <cities>
+        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
+        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район"/>
+        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
+        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район"/>
+        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
+        <cityRef cityNameRef="София" regionNameRef="Югозападен регион"/>
+    </cities>
+    <locations>
+        <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
+        <location restaurantNameRef="LIFE...restaurant, pizzeria &amp; wine bar" addressRef="ул. Трети Март 35"/>
+        <location restaurantNameRef="Torro Boulevard" addressRef="бул. „Васил Априлов“ 60"/>
+        <location restaurantNameRef="Щастливеца" addressRef="ул. Хан Аспарух 30"/>
+        <location restaurantNameRef="Стария чинар" addressRef="Пристанищен комплекс, Варна"/>
+        <location restaurantNameRef="Царя 65" addressRef="бул. Цар Симеон Велики 65"/>
+        <location restaurantNameRef="Spaghetti Kitchen" addressRef="ул. 6-ти Септември N9"/>
+        <location restaurantNameRef="The View" addressRef="бул. Витоша 89Б, Милениум център, етаж 24"/>
+    </locations>
 </restaurantCatalog>
