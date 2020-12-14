@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!ELEMENT restaurantCatalog (restaurant)+>
+<!ELEMENT restaurantCatalog (restaurant+, cities, locations)>
 <!ELEMENT restaurant (name, picture, city, region, address,
         phoneNumber, website, numSeats, priceCategory,
         typeOfRestaurant?, typesOfFood, services, payments, music?)>
+<!ELEMENT cities (cityRef)+>
+<!ELEMENT cityRef EMPTY>
+<!ATTLIST cityRef cityNameRef CDATA #REQUIRED>
+<!ATTLIST cityRef regionNameRef CDATA #REQUIRED>
+<!ELEMENT locations (location)+>
+<!ELEMENT location EMPTY>
+<!ATTLIST location restaurantNameRef CDATA #REQUIRED>
+<!ATTLIST location addressRef CDATA #REQUIRED>
 <!ATTLIST restaurant id ID #REQUIRED>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT picture EMPTY>
