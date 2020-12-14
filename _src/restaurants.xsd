@@ -84,7 +84,7 @@
             <xs:element name="cities">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="city" maxOccurs="unbounded">
+                        <xs:element name="cityRef" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:simpleContent>
                                     <xs:extension base="xs:string">
@@ -123,7 +123,7 @@
             <xs:field xpath="region"/>
         </xs:key>
         <xs:keyref name="cities" refer="regionCity">
-            <xs:selector xpath="restaurantCatalog/cities/city"/>
+            <xs:selector xpath="restaurantCatalog/cities/cityRef"/>
             <xs:field xpath="@cityNameRef"/>
             <xs:field xpath="@regionNameRef"/>
         </xs:keyref>
