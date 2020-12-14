@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-16"?>
-<?xml-stylesheet href="./restaurantsXSLT.xsl" type="text/xsl"?>
+<?xml-stylesheet type="text/xsl" href="restaurantsXSLT.xsl"?>
 <!DOCTYPE restaurantCatalog SYSTEM "restaurants.dtd">
 <restaurantCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurants.xsd">
     <restaurant id="r1">
@@ -9,7 +9,7 @@
         <region>Северен централен регион</region>
         <address>ул. „Александър Стамболийски“ 7</address>
         <phoneNumber>+359 88 918 0111</phoneNumber>
-        <website href="http://www.restorantasenevci.com/">http://www.restorantasenevci.com/</website>
+        <website href="http://www.restorantasenevci.com/">Уебсайт</website>
         <numSeats all="150">
             <indoor>110</indoor>
             <bar>0</bar>
@@ -52,7 +52,7 @@
         <region>Северозападен район</region>
         <address>ул. Трети Март 35</address>
         <phoneNumber>+359 64 843 844</phoneNumber>
-        <website href="https://life-restaurant.bg/">https://life-restaurant.bg/</website>
+        <website href="https://life-restaurant.bg/">Уебсайт</website>
         <numSeats all="130">
             <indoor>80</indoor>
             <bar>10</bar>
@@ -92,7 +92,7 @@
         <region>Североизточен район</region>
         <address>Пристанищен комплекс, Варна</address>
         <phoneNumber>+359 87 954 9494</phoneNumber>
-        <website href="http://www.stariachinar.com/port-varna/">http://www.stariachinar.com/port-varna/</website>
+        <website href="http://www.stariachinar.com/port-varna/">Уебсайт</website>
         <numSeats all="400">
             <indoor>170</indoor>
             <bar>30</bar>
@@ -136,7 +136,7 @@
         <region>Югозападен регион</region>
         <address>ул. 6-ти Септември N9</address>
         <phoneNumber>+359 89 056 6666</phoneNumber>
-        <website href="http://www.spaghetti-kitchen.com/">http://www.spaghetti-kitchen.com/</website>
+        <website href="http://www.spaghetti-kitchen.com/">Уебсайт</website>
         <numSeats all="230">
             <indoor>160</indoor>
             <bar>0</bar>
@@ -173,7 +173,7 @@
         <region>Югозападен регион</region>
         <address>бул. Витоша 89Б, Милениум център, етаж 24</address>
         <phoneNumber>+359 88 972 4124</phoneNumber>
-        <website href="http://theview.bg/en/">http://theview.bg/en/</website>
+        <website href="http://theview.bg/en/">Уебсайт</website>
         <numSeats all="432">
             <indoor>360</indoor>
             <bar>12</bar>
@@ -214,7 +214,7 @@
         <region>Южен централен регион</region>
         <address>бул. „Васил Априлов“ 60</address>
         <phoneNumber>+359 87 900 6100</phoneNumber>
-        <website href="https://www.torrogrande.com/">https://www.torrogrande.com/</website>
+        <website href="https://www.torrogrande.com/">Уебсайт</website>
         <numSeats all="145">
             <indoor>90</indoor>
             <bar>35</bar>
@@ -253,7 +253,7 @@
         <region>Югоизточен район</region>
         <address>бул. Цар Симеон Велики 65</address>
         <phoneNumber>+359 42 650 000</phoneNumber>
-        <website href="https://www.caria65.com/">https://www.caria65.com/</website>
+        <website href="https://www.caria65.com/">Уебсайт</website>
         <numSeats all="440">
             <indoor>200</indoor>
             <bar>0</bar>
@@ -292,7 +292,7 @@
         <region>Югоизточен район</region>
         <address>ул. Хан Аспарух 30</address>
         <phoneNumber>+359 42 919 494</phoneNumber>
-        <website href="https://www.shtastliveca.com/">https://www.shtastliveca.com/</website>
+        <website href="https://www.shtastliveca.com/">Уебсайт</website>
         <numSeats all="200">
             <indoor>130</indoor>
             <bar>0</bar>
@@ -320,22 +320,4 @@
             <genre>разнообразна</genre>
         </music>
     </restaurant>
-    <cities>
-        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
-        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район"/>
-        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
-        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район"/>
-        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
-        <cityRef cityNameRef="София" regionNameRef="Югозападен регион"/>
-    </cities>
-    <locations>
-        <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
-        <location restaurantNameRef="LIFE...restaurant, pizzeria &amp; wine bar" addressRef="ул. Трети Март 35"/>
-        <location restaurantNameRef="Torro Boulevard" addressRef="бул. „Васил Априлов“ 60"/>
-        <location restaurantNameRef="Щастливеца" addressRef="ул. Хан Аспарух 30"/>
-        <location restaurantNameRef="Стария чинар" addressRef="Пристанищен комплекс, Варна"/>
-        <location restaurantNameRef="Царя 65" addressRef="бул. Цар Симеон Велики 65"/>
-        <location restaurantNameRef="Spaghetti Kitchen" addressRef="ул. 6-ти Септември N9"/>
-        <location restaurantNameRef="The View" addressRef="бул. Витоша 89Б, Милениум център, етаж 24"/>
-    </locations>
 </restaurantCatalog>
