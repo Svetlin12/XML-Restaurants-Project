@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <?xml-stylesheet href="./restaurantsXSLT.xsl" type="text/xsl"?>
+<!DOCTYPE restaurantCatalog SYSTEM "restaurants.dtd">
 <restaurantCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="restaurants.xsd">
     <restaurant id="r1">
         <name>Асеневци</name>
@@ -320,12 +321,12 @@
         </music>
     </restaurant>
     <cities>
-        <city cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
-        <city cityNameRef="Варна" regionNameRef="Североизточен район"/>
-        <city cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
-        <city cityNameRef="Плевен" regionNameRef="Северозападен район"/>
-        <city cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
-        <city cityNameRef="София" regionNameRef="Югозападен регион"/>
+        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
+        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район"/>
+        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
+        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район"/>
+        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
+        <cityRef cityNameRef="София" regionNameRef="Югозападен регион"/>
     </cities>
     <locations>
         <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
