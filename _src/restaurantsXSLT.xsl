@@ -51,7 +51,7 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
@@ -116,14 +116,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -140,7 +143,7 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
@@ -205,6 +208,7 @@
                                 </div>
                             </div>
 
+                            <xsl:if test="music">
                             <div class="menu">
                                 <h4>Видове музика▼</h4>
                                 <div class="menu-content">
@@ -213,6 +217,8 @@
                                     </xsl:for-each>
                                 </div>
                             </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -229,7 +235,7 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
@@ -294,14 +300,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -318,7 +327,7 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
@@ -383,14 +392,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -407,7 +419,7 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
@@ -472,14 +484,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
