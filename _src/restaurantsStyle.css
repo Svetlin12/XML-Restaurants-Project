@@ -28,7 +28,7 @@ h4 {
 .navigationBar {
     margin: auto;
     position: relative;
-    width: 740px;
+    width: 731.5px;
     height: 50px;
     background-color: #34495e;
     border-radius: 8px;
@@ -78,14 +78,14 @@ h4 {
 }
 
 .rest {
-    width: 90%;
+    width: 1350px;
     display: block;
     border-color: black;
     border-style: solid;
     border-width: 1px;
     margin-top: 20px;
     margin-left: 5%;
-    box-shadow: 5px 5px 5px slategray;
+    box-shadow: 10px 10px 10px slategray;
     border-radius: 8px;
     background-color: white;
 }
@@ -94,20 +94,17 @@ h4 {
     text-align: center;
 }
 
-.image img {
-    margin: 5px;
-    width: 450px;
-    height: 400px;
-}
-
-#type {
-    width: 400px;
-}
-
 .info {
     display: flex;
     align-items: center;
     margin: 5px 5px 5px;
+}
+
+.image img {
+    margin: 5px;
+    width: 450px;
+    height: 400px;
+    box-shadow: 10px 10px 10px slategray;
 }
 
 .nonImageInfo {
@@ -128,6 +125,10 @@ h4 {
     left: 90px;
 }
 
+#type {
+    width: 400px;
+}
+
 .menu {
     position: relative;
     display: block;
@@ -145,6 +146,9 @@ h4 {
 
 .menu-content p {
     color: white;
+    border-color: white;
+    border-bottom-style: solid;
+    border-width: thin;
 }
 
 .menu:hover .menu-content {
