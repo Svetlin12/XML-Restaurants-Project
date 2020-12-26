@@ -13,8 +13,17 @@
 <!ATTLIST location addressRef CDATA #REQUIRED>
 <!ATTLIST restaurant id ID #REQUIRED>
 <!ELEMENT name (#PCDATA)>
+<!NOTATION JPG SYSTEM "image/jpg">
+<!ENTITY restaurant1 SYSTEM "restaurant1.jpg" NDATA JPG>
+<!ENTITY restaurant2 SYSTEM "restaurant2.jpg" NDATA JPG>
+<!ENTITY restaurant3 SYSTEM "restaurant3.jpg" NDATA JPG>
+<!ENTITY restaurant4 SYSTEM "restaurant4.jpg" NDATA JPG>
+<!ENTITY restaurant5 SYSTEM "restaurant5.jpg" NDATA JPG>
+<!ENTITY restaurant6 SYSTEM "restaurant6.jpg" NDATA JPG>
+<!ENTITY restaurant7 SYSTEM "restaurant7.jpg" NDATA JPG>
+<!ENTITY restaurant8 SYSTEM "restaurant8.jpg" NDATA JPG>
 <!ELEMENT picture EMPTY>
-<!ATTLIST picture link CDATA #REQUIRED>
+<!ATTLIST picture link ENTITIES #REQUIRED>
 <!ELEMENT city (#PCDATA)>
 <!ELEMENT region (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
