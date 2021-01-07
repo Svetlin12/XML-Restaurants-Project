@@ -321,12 +321,12 @@
         </music>
     </restaurant>
     <cities>
-        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
-        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район"/>
-        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
-        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район"/>
-        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
-        <cityRef cityNameRef="София" regionNameRef="Югозападен регион"/>
+        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион" websiteRef="http://www.restorantasenevci.com/"/>
+        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район" websiteRef="https://life-restaurant.bg/"/>
+        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район" websiteRef="http://www.stariachinar.com/port-varna/"/>
+        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район" websiteRef="https://www.torrogrande.com/"/>
+        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион" websiteRef="https://www.caria65.com/"/>
+        <cityRef cityNameRef="София" regionNameRef="Югозападен регион" websiteRef="https://www.shtastliveca.com/"/>
     </cities>
     <locations>
         <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
