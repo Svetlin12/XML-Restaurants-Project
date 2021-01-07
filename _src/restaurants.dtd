@@ -7,6 +7,7 @@
 <!ELEMENT cityRef EMPTY>
 <!ATTLIST cityRef cityNameRef CDATA #REQUIRED>
 <!ATTLIST cityRef regionNameRef CDATA #REQUIRED>
+<!ATTLIST cityRef websiteRef CDATA #REQUIRED>
 <!ELEMENT locations (location)+>
 <!ELEMENT location EMPTY>
 <!ATTLIST location restaurantNameRef CDATA #REQUIRED>
