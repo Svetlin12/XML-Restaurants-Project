@@ -90,6 +90,7 @@
                                     <xs:extension base="xs:string">
                                         <xs:attribute name="cityNameRef" type="xs:string"/>
                                         <xs:attribute name="regionNameRef" type="xs:string"/>
+                                        <xs:attribute name="websiteRef" type="xs:string"/>
                                     </xs:extension>
                                 </xs:simpleContent>
                             </xs:complexType>
@@ -118,14 +119,16 @@
 
     <xs:element name="restaurantCatalog" type="restaurantCatalog">
         <xs:key name="regionCity">
-            <xs:selector xpath="restaurantCatalog/restaurant"/>
+            <xs:selector xpath=".//restaurant"/>
             <xs:field xpath="city"/>
             <xs:field xpath="region"/>
+            <xs:field xpath="website/@href"/>
         </xs:key>
         <xs:keyref name="cities" refer="regionCity">
             <xs:selector xpath="restaurantCatalog/cities/cityRef"/>
             <xs:field xpath="@cityNameRef"/>
             <xs:field xpath="@regionNameRef"/>
+            <xs:field xpath="@websiteRef"/>
         </xs:keyref>
         <xs:key name="location">
             <xs:selector xpath=".//restaurant"/>
