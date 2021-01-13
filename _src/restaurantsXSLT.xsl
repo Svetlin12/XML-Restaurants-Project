@@ -42,6 +42,8 @@
         </html>
     </xsl:template>
 
+    <xsl:variable name="cityRegions" select="restaurantCatalog/cityRegionPair/cityRegion"/>
+
     <xsl:template name="sortByName">
         <xsl:for-each select="restaurantCatalog/restaurant">
             <xsl:sort select="name"/>
@@ -51,16 +53,17 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="gallery/{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
                         <div class="description">
+                            <xsl:variable name="idref" select="cityRegionRef/@ref"/>
                             <h4>Град:</h4>
-                            <p><xsl:value-of select="city"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@city"/></p>
 
                             <h4>Регион:</h4>
-                            <p><xsl:value-of select="region"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@region"/></p>
 
                             <h4>Адрес:</h4>
                             <p><xsl:value-of select="address"/></p>
@@ -116,14 +119,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -140,16 +146,17 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="gallery/{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
                         <div class="description">
+                            <xsl:variable name="idref" select="cityRegionRef/@ref"/>
                             <h4>Град:</h4>
-                            <p><xsl:value-of select="city"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@city"/></p>
 
                             <h4>Регион:</h4>
-                            <p><xsl:value-of select="region"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@region"/></p>
 
                             <h4>Адрес:</h4>
                             <p><xsl:value-of select="address"/></p>
@@ -205,14 +212,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -229,16 +239,17 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="gallery/{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
                         <div class="description">
+                            <xsl:variable name="idref" select="cityRegionRef/@ref"/>
                             <h4>Град:</h4>
-                            <p><xsl:value-of select="city"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@city"/></p>
 
                             <h4>Регион:</h4>
-                            <p><xsl:value-of select="region"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@region"/></p>
 
                             <h4>Адрес:</h4>
                             <p><xsl:value-of select="address"/></p>
@@ -294,14 +305,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -318,16 +332,17 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="gallery/{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
                         <div class="description">
+                            <xsl:variable name="idref" select="cityRegionRef/@ref"/>
                             <h4>Град:</h4>
-                            <p><xsl:value-of select="city"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@city"/></p>
 
                             <h4>Регион:</h4>
-                            <p><xsl:value-of select="region"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@region"/></p>
 
                             <h4>Адрес:</h4>
                             <p><xsl:value-of select="address"/></p>
@@ -383,14 +398,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
@@ -407,16 +425,17 @@
 
                 <div class="info">
                     <div class="image">
-                        <img src="{picture/@link}"/>
+                        <img src="gallery/{picture/@link}.jpg"/>
                     </div>
 
                     <div class="nonImageInfo">
                         <div class="description">
+                            <xsl:variable name="idref" select="cityRegionRef/@ref"/>
                             <h4>Град:</h4>
-                            <p><xsl:value-of select="city"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@city"/></p>
 
                             <h4>Регион:</h4>
-                            <p><xsl:value-of select="region"/></p>
+                            <p><xsl:value-of select="$cityRegions[@id = $idref]/@region"/></p>
 
                             <h4>Адрес:</h4>
                             <p><xsl:value-of select="address"/></p>
@@ -472,14 +491,17 @@
                                 </div>
                             </div>
 
-                            <div class="menu">
-                                <h4>Видове музика▼</h4>
-                                <div class="menu-content">
-                                    <xsl:for-each select="music/genre">
-                                        <p><xsl:value-of select="text()"/></p>
-                                    </xsl:for-each>
+                            <xsl:if test="music">
+                                <div class="menu">
+                                    <h4>Видове музика▼</h4>
+                                    <div class="menu-content">
+                                        <xsl:for-each select="music/genre">
+                                            <p><xsl:value-of select="text()"/></p>
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
-                            </div>
+                            </xsl:if>
+
                         </div>
                     </div>
                 </div>
