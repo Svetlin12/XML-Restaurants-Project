@@ -5,8 +5,7 @@
     <restaurant id="r1">
         <name>Асеневци</name>
         <picture link="restaurant1"/>
-        <city>Велико Търново</city>
-        <region>Северен централен регион</region>
+        <cityRegionRef ref="cr1"/>
         <address>ул. „Александър Стамболийски“ 7</address>
         <phoneNumber>+359 88 918 0111</phoneNumber>
         <website href="http://www.restorantasenevci.com/">Уебсайт</website>
@@ -48,8 +47,7 @@
     <restaurant id="r2">
         <name>LIFE...restaurant, pizzeria &amp; wine bar</name>
         <picture link="restaurant2"/>
-        <city>Плевен</city>
-        <region>Северозападен район</region>
+        <cityRegionRef ref="cr4"/>
         <address>ул. Трети Март 35</address>
         <phoneNumber>+359 64 843 844</phoneNumber>
         <website href="https://life-restaurant.bg/">Уебсайт</website>
@@ -88,8 +86,7 @@
     <restaurant id="r3">
         <name>Стария чинар</name>
         <picture link="restaurant3"/>
-        <city>Варна</city>
-        <region>Североизточен район</region>
+        <cityRegionRef ref="cr2"/>
         <address>Пристанищен комплекс, Варна</address>
         <phoneNumber>+359 87 954 9494</phoneNumber>
         <website href="http://www.stariachinar.com/port-varna/">Уебсайт</website>
@@ -132,8 +129,7 @@
     <restaurant id="r4">
         <name>Spaghetti Kitchen</name>
         <picture link="restaurant4"/>
-        <city>София</city>
-        <region>Югозападен регион</region>
+        <cityRegionRef ref="cr5"/>
         <address>ул. 6-ти Септември N9</address>
         <phoneNumber>+359 89 056 6666</phoneNumber>
         <website href="http://www.spaghetti-kitchen.com/">Уебсайт</website>
@@ -169,8 +165,7 @@
     <restaurant id="r5">
         <name>The View</name>
         <picture link="restaurant5"/>
-        <city>София</city>
-        <region>Югозападен регион</region>
+        <cityRegionRef ref="cr5"/>
         <address>бул. Витоша 89Б, Милениум център, етаж 24</address>
         <phoneNumber>+359 88 972 4124</phoneNumber>
         <website href="http://theview.bg/en/">Уебсайт</website>
@@ -210,8 +205,7 @@
     <restaurant id="r6">
         <name>Torro Boulevard</name>
         <picture link="restaurant6"/>
-        <city>Пловдив</city>
-        <region>Южен централен регион</region>
+        <cityRegionRef ref="cr6"/>
         <address>бул. „Васил Априлов“ 60</address>
         <phoneNumber>+359 87 900 6100</phoneNumber>
         <website href="https://www.torrogrande.com/">Уебсайт</website>
@@ -249,8 +243,7 @@
     <restaurant id="r7">
         <name>Царя 65</name>
         <picture link="restaurant7"/>
-        <city>Стара Загора</city>
-        <region>Югоизточен район</region>
+        <cityRegionRef ref="cr3"/>
         <address>бул. Цар Симеон Велики 65</address>
         <phoneNumber>+359 42 650 000</phoneNumber>
         <website href="https://www.caria65.com/">Уебсайт</website>
@@ -288,8 +281,7 @@
     <restaurant id="r8">
         <name>Щастливеца</name>
         <picture link="restaurant8"/>
-        <city>Стара Загора</city>
-        <region>Югоизточен район</region>
+        <cityRegionRef ref="cr3"/>
         <address>ул. Хан Аспарух 30</address>
         <phoneNumber>+359 42 919 494</phoneNumber>
         <website href="https://www.shtastliveca.com/">Уебсайт</website>
@@ -320,14 +312,15 @@
             <genre>разнообразна</genre>
         </music>
     </restaurant>
-    <cities>
-        <cityRef cityNameRef="Велико Търново" regionNameRef="Северен централен регион"/>
-        <cityRef cityNameRef="Варна" regionNameRef="Североизточен район"/>
-        <cityRef cityNameRef="Стара Загора" regionNameRef="Югоизточен район"/>
-        <cityRef cityNameRef="Плевен" regionNameRef="Северозападен район"/>
-        <cityRef cityNameRef="Пловдив" regionNameRef="Южен централен регион"/>
-        <cityRef cityNameRef="София" regionNameRef="Югозападен регион"/>
-    </cities>
+    <cityRegionPair>
+        <cityRegion city="Велико Търново" region="Северен централен район" id="cr1"/>
+        <cityRegion city="Варна" region="Североизточен район" id="cr2"/>
+        <cityRegion city="Стара Загора" region="Югоизточен район" id="cr3"/>
+        <cityRegion city="Плевен" region="Северозападен район" id="cr4"/>
+        <cityRegion city="София" region="Югозападен район" id="cr5"/>
+        <cityRegion city="Пловдив" region="Южен централен район" id="cr6"/>
+        <cityRegion city="Пловдив" region="Южен централен район" id="cr7"/>
+    </cityRegionPair>
     <locations>
         <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
         <location restaurantNameRef="LIFE...restaurant, pizzeria &amp; wine bar" addressRef="ул. Трети Март 35"/>
