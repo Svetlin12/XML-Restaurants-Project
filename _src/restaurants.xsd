@@ -2,7 +2,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <xs:complexType name="picture">
-        <xs:attribute name="link" type="xs:string"/>
+        <xs:attribute name="link" type="xs:ENTITY"/>
+    </xs:complexType>
+
+    <xs:complexType name="cityRegionRef">
+        <xs:attribute name="ref" type="xs:IDREF"/>
     </xs:complexType>
 
     <xs:complexType name="website">
@@ -62,8 +66,7 @@
         <xs:sequence>
             <xs:element name="name" type="xs:string"/>
             <xs:element name="picture" type="picture"/>
-            <xs:element name="city" type="xs:string"/>
-            <xs:element name="region" type="xs:string"/>
+            <xs:element name="cityRegionRef" type="cityRegionRef"/>
             <xs:element name="address" type="xs:string"/>
             <xs:element name="phoneNumber" type="xs:string"/>
             <xs:element name="website" type="website"/>
@@ -81,15 +84,16 @@
     <xs:complexType name="restaurantCatalog">
         <xs:sequence>
             <xs:element name="restaurant" type="restaurant" maxOccurs="unbounded"/>
-            <xs:element name="cities">
+            <xs:element name="cityRegionPair">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="cityRef" maxOccurs="unbounded">
+                        <xs:element name="cityRegion" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:simpleContent>
                                     <xs:extension base="xs:string">
-                                        <xs:attribute name="cityNameRef" type="xs:string"/>
-                                        <xs:attribute name="regionNameRef" type="xs:string"/>
+                                        <xs:attribute name="city" type="xs:string"/>
+                                        <xs:attribute name="region" type="xs:string"/>
+                                        <xs:attribute name="id" type="xs:ID"/>
                                     </xs:extension>
                                 </xs:simpleContent>
                             </xs:complexType>
@@ -117,16 +121,6 @@
     </xs:complexType>
 
     <xs:element name="restaurantCatalog" type="restaurantCatalog">
-        <xs:key name="regionCity">
-            <xs:selector xpath="restaurantCatalog/restaurant"/>
-            <xs:field xpath="city"/>
-            <xs:field xpath="region"/>
-        </xs:key>
-        <xs:keyref name="cities" refer="regionCity">
-            <xs:selector xpath="restaurantCatalog/cities/cityRef"/>
-            <xs:field xpath="@cityNameRef"/>
-            <xs:field xpath="@regionNameRef"/>
-        </xs:keyref>
         <xs:key name="location">
             <xs:selector xpath=".//restaurant"/>
             <xs:field xpath="name"/>
