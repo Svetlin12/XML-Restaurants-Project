@@ -1,22 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!ELEMENT restaurantCatalog (restaurant+, cities, locations)>
-<!ELEMENT restaurant (name, picture, city, region, address,
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT restaurantCatalog (restaurant+, cityRegionPair, locations)>
+<!ELEMENT restaurant (name, picture, cityRegionRef, address,
         phoneNumber, website, numSeats, priceCategory,
         typeOfRestaurant?, typesOfFood, services, payments, music?)>
-<!ELEMENT cities (cityRef)+>
-<!ELEMENT cityRef EMPTY>
-<!ATTLIST cityRef cityNameRef CDATA #REQUIRED>
-<!ATTLIST cityRef regionNameRef CDATA #REQUIRED>
+<!ELEMENT cityRegionPair (cityRegion)+>
+<!ELEMENT cityRegion EMPTY>
+<!ATTLIST cityRegion
+                    city CDATA #REQUIRED
+                    region CDATA #REQUIRED
+                    id ID #REQUIRED>
 <!ELEMENT locations (location)+>
 <!ELEMENT location EMPTY>
-<!ATTLIST location restaurantNameRef CDATA #REQUIRED>
-<!ATTLIST location addressRef CDATA #REQUIRED>
+<!ATTLIST location
+                   restaurantNameRef CDATA #REQUIRED
+                   addressRef CDATA #REQUIRED>
 <!ATTLIST restaurant id ID #REQUIRED>
 <!ELEMENT name (#PCDATA)>
+<!NOTATION JPG SYSTEM "image/jpg">
+<!ENTITY restaurant1 SYSTEM "gallery/restaurant1.jpg" NDATA JPG>
+<!ENTITY restaurant2 SYSTEM "gallery/restaurant2.jpg" NDATA JPG>
+<!ENTITY restaurant3 SYSTEM "gallery/restaurant3.jpg" NDATA JPG>
+<!ENTITY restaurant4 SYSTEM "gallery/restaurant4.jpg" NDATA JPG>
+<!ENTITY restaurant5 SYSTEM "gallery/restaurant5.jpg" NDATA JPG>
+<!ENTITY restaurant6 SYSTEM "gallery/restaurant6.jpg" NDATA JPG>
+<!ENTITY restaurant7 SYSTEM "gallery/restaurant7.jpg" NDATA JPG>
+<!ENTITY restaurant8 SYSTEM "gallery/restaurant8.jpg" NDATA JPG>
 <!ELEMENT picture EMPTY>
-<!ATTLIST picture link CDATA #REQUIRED>
-<!ELEMENT city (#PCDATA)>
-<!ELEMENT region (#PCDATA)>
+<!ATTLIST picture link ENTITIES #REQUIRED>
+<!ELEMENT cityRegionRef EMPTY>
+<!ATTLIST cityRegionRef ref IDREF #REQUIRED>
 <!ELEMENT address (#PCDATA)>
 <!ELEMENT phoneNumber (#PCDATA)>
 <!ELEMENT website (#PCDATA)>
