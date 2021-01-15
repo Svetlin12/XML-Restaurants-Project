@@ -87,42 +87,42 @@
         <xs:attribute name="id" type="xs:ID"/>
     </xs:complexType>
 
+    <xs:complexType name="cityRegionPair">
+        <xs:sequence>
+            <xs:element name="cityRegion" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="city" type="xs:string"/>
+                            <xs:attribute name="region" type="xs:string"/>
+                            <xs:attribute name="id" type="xs:ID"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="locationType">
+        <xs:sequence>
+            <xs:element name="location" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="restaurantNameRef" type="xs:string"/>
+                            <xs:attribute name="addressRef" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="restaurantCatalog">
         <xs:sequence>
             <xs:element name="restaurant" type="restaurant" maxOccurs="unbounded"/>
-            <xs:element name="cityRegionPair">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="cityRegion" maxOccurs="unbounded">
-                            <xs:complexType>
-                                <xs:simpleContent>
-                                    <xs:extension base="xs:string">
-                                        <xs:attribute name="city" type="xs:string"/>
-                                        <xs:attribute name="region" type="xs:string"/>
-                                        <xs:attribute name="id" type="xs:ID"/>
-                                    </xs:extension>
-                                </xs:simpleContent>
-                            </xs:complexType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="locations">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="location" maxOccurs="unbounded">
-                            <xs:complexType>
-                                <xs:simpleContent>
-                                    <xs:extension base="xs:string">
-                                        <xs:attribute name="restaurantNameRef" type="xs:string"/>
-                                        <xs:attribute name="addressRef" type="xs:string"/>
-                                    </xs:extension>
-                                </xs:simpleContent>
-                            </xs:complexType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+            <xs:element name="cityRegionPair" type="cityRegionPair"/>
+            <xs:element name="locations" type="locationType"/>
         </xs:sequence>
     </xs:complexType>
 
