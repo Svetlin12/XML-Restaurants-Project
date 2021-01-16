@@ -319,7 +319,6 @@
         <cityRegion city="Плевен" region="Северозападен район" id="cr4"/>
         <cityRegion city="София" region="Югозападен район" id="cr5"/>
         <cityRegion city="Пловдив" region="Южен централен район" id="cr6"/>
-        <cityRegion city="Пловдив" region="Южен централен район" id="cr7"/>
     </cityRegionPair>
     <locations>
         <location restaurantNameRef="Асеневци" addressRef="ул. „Александър Стамболийски“ 7"/>
