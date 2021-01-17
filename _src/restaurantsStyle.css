@@ -82,13 +82,13 @@ h4 {
 }
 
 .rest {
-    width: 80vw;
+    width: 90vw;
     display: inline-block;
     border-color: black;
     border-style: solid;
     border-width: 1px;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
     box-shadow: 10px 10px 10px slategray;
     border-radius: 8px;
     background-color: white;
