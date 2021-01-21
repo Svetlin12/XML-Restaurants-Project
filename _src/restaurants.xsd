@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:complexType name="picture">
-        <xs:attribute name="link" type="xs:ENTITY"/>
+        <xs:attribute name="link" type="xs:ENTITY" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="cityRegionRef">
-        <xs:attribute name="ref" type="xs:IDREF"/>
+        <xs:attribute name="ref" type="xs:IDREF" use="required"/>
     </xs:complexType>
 
     <xs:simpleType name="phoneNumber">
@@ -35,7 +35,7 @@
             <xs:element name="bar" type="myInteger"/>
             <xs:element name="outdoor" type="myInteger"/>
         </xs:sequence>
-        <xs:attribute name="all" type="xs:integer"/>
+        <xs:attribute name="all" type="xs:integer" use="required"/>
     </xs:complexType>
 
     <xs:simpleType name="priceCategory">
@@ -90,16 +90,16 @@
             <xs:element name="payments" type="payments"/>
             <xs:element name="music" type="music" minOccurs="0"/>
         </xs:sequence>
-        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="cityRegionPair">
         <xs:sequence>
             <xs:element name="cityRegion" maxOccurs="unbounded">
                 <xs:complexType>
-                    <xs:attribute name="city" type="xs:string"/>
-                    <xs:attribute name="region" type="xs:string"/>
-                    <xs:attribute name="id" type="xs:ID"/>
+                    <xs:attribute name="city" type="xs:string" use="required"/>
+                    <xs:attribute name="region" type="xs:string" use="required"/>
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
@@ -109,8 +109,8 @@
         <xs:sequence>
             <xs:element name="location" maxOccurs="unbounded">
                 <xs:complexType>
-                    <xs:attribute name="restaurantNameRef" type="xs:string"/>
-                    <xs:attribute name="addressRef" type="xs:string"/>
+                    <xs:attribute name="restaurantNameRef" type="xs:string" use="required"/>
+                    <xs:attribute name="addressRef" type="xs:string" use="required"/>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
